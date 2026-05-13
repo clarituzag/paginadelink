@@ -260,8 +260,9 @@
         /* --- Serviços Discretos --- */
         .servicos-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 8px;
+            grid-template-columns: repeat(2, auto);
+            justify-content: center;
+            gap: 8px 24px;
             margin-bottom: 25px;
             font-size: 0.9rem;
             color: var(--accent-beige);
@@ -271,9 +272,9 @@
         .servico-item {
             display: flex;
             align-items: center;
-            justify-content: center;
             gap: 6px;
             opacity: 0.8;
+            text-align: left;
         }
 
         .servico-item::before {
